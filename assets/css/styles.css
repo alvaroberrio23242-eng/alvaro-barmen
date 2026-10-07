@@ -1010,3 +1010,9 @@ button {
 .ig-foot { padding: 1rem 1.25rem 1.25rem; text-align: center; }
 .ig-cta { display: inline-block; padding: 0.6rem 1.4rem; border: 1px solid #d4af37; border-radius: 999px; color: #d4af37; font-size: 0.9rem; text-decoration: none; transition: background 0.2s; }
 .ig-cta:hover, .ig-cta:focus-visible { background: rgba(212, 175, 55, 0.12); }
+
+/* IG-CLICK: toda la ficha de Instagram es clicable (stretched link) */
+.ig-card { position: relative; cursor: pointer; }
+.ig-cta::after { content: ""; position: absolute; inset: 0; z-index: 2; }
+.ig-cta:focus-visible { outline: none; }
+.ig-card:has(.ig-cta:focus-visible) { outline: 2px solid #d6ad3c; outline-offset: 4px; }

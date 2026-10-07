@@ -6,3 +6,6 @@ assets/img/*.before-*.jpg
 ig-card.new.html
 ig-preview.html
 _originales/
+*.bak-*
+index.html.pre-*
+index.html.sobrescrito-*
