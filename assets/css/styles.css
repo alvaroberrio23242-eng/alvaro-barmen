@@ -1032,3 +1032,7 @@ button {
 .hero-location { margin: 0.4rem 0 0; font-size: 0.9rem; letter-spacing: 0.02em; color: rgba(255, 255, 255, 0.7); }
 .hero-location strong { color: #d6ad3c; font-weight: 600; }
 .hero-location span { margin: 0 0.35rem; opacity: 0.6; }
+
+.profile-meta-accent {
+    color: var(--accent, #f5c542);
+}
