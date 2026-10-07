@@ -1,0 +1,8 @@
+*.bak
+assets/videos/*before-crop-*.mp4
+assets/videos/*original-backup*.mp4
+assets/videos/*.clean.mp4
+assets/img/*.before-*.jpg
+ig-card.new.html
+ig-preview.html
+_originales/

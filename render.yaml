@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: alvaro-barmen
+    runtime: static
+    staticPublishPath: .
